@@ -1,0 +1,29 @@
+.map-container{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+svg{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+}
+.Water{
+  fill:#c8ebff;stroke:#3491bc
+}
+
+.Land{
+  fill:#fefee4;stroke:#999;stroke-miterlimit:10;transition: all 0.25s;
+  cursor: pointer;
+}
+
+.Land:hover{
+  fill: #A4FFA4; stroke: #009919; stroke-width: 2px;
+
+}
